@@ -1,0 +1,797 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-30T16:12:43.044Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4479128400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "zadanie.featureDefinitions.initDriver()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Logowanie na  stronie",
+        "description": "",
+        "id": "zadanie1;logowanie-na--stronie",
+        "after": [
+          {
+            "result": {
+              "duration": 188885200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "zadanie.featureDefinitions.disposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1059182000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "nawiguje do:",
+            "match": {
+              "location": "zadanie.featureDefinitions.navigateTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://prod-kurs.coderslab.pl/index.php?controller\u003dauthentication\u0026back\u003dmy-account"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 452554400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "wpisuje login i haslo",
+            "match": {
+              "location": "zadanie.featureDefinitions.writeLoginAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 638760700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "klikam zaloguj",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9995000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "powinienem byc na stronie profilu",
+            "match": {
+              "location": "zadanie.featureDefinitions.isNavigatedToProfile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-30T16:12:50.006Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3782137700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "zadanie.featureDefinitions.initDriver()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "doadaj adres",
+        "description": "",
+        "id": "zadanie1;doadaj-adres;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 224859200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "zadanie.featureDefinitions.disposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1369150100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "nawiguje do:",
+            "match": {
+              "location": "zadanie.featureDefinitions.navigateTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://prod-kurs.coderslab.pl/index.php?controller\u003dauthentication\u0026back\u003dmy-account"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 548658700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "wpisuje login i haslo",
+            "match": {
+              "location": "zadanie.featureDefinitions.writeLoginAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 699566300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "klikam zaloguj",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 401750000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "klikam zakladke adreses",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickAdressesBookmark()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340788300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "klikam dodaj adres",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickAddAdress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 559998500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "uzupelniam dane alias1 and address2 and city3 and postal4 and United Kingdom and 000111222",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alias1",
+                  "offset": 16
+                },
+                {
+                  "val": "address2",
+                  "offset": 27
+                },
+                {
+                  "val": "city3",
+                  "offset": 40
+                },
+                {
+                  "val": "postal4",
+                  "offset": 50
+                },
+                {
+                  "val": "United Kingdom",
+                  "offset": 62
+                },
+                {
+                  "val": "000111222",
+                  "offset": 81
+                }
+              ],
+              "location": "zadanie.featureDefinitions.insertAdress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 395066400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "klikam save",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickSave()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10993100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "powinno sie zapisac",
+            "match": {
+              "location": "zadanie.featureDefinitions.checkIfSaved()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-30T16:12:58.359Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1417045200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "zadanie.featureDefinitions.initDriver()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "doadaj adres",
+        "description": "",
+        "id": "zadanie1;doadaj-adres;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 104934800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "zadanie.featureDefinitions.disposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1421117300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "nawiguje do:",
+            "match": {
+              "location": "zadanie.featureDefinitions.navigateTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://prod-kurs.coderslab.pl/index.php?controller\u003dauthentication\u0026back\u003dmy-account"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 243848800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "wpisuje login i haslo",
+            "match": {
+              "location": "zadanie.featureDefinitions.writeLoginAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 557442900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "klikam zaloguj",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311296100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "klikam zakladke adreses",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickAdressesBookmark()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 318815800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "klikam dodaj adres",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickAddAdress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 621385200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "uzupelniam dane alias11 and address22 and city33 and postal44 and United Kingdom and 000111222",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alias11",
+                  "offset": 16
+                },
+                {
+                  "val": "address22",
+                  "offset": 28
+                },
+                {
+                  "val": "city33",
+                  "offset": 42
+                },
+                {
+                  "val": "postal44",
+                  "offset": 53
+                },
+                {
+                  "val": "United Kingdom",
+                  "offset": 66
+                },
+                {
+                  "val": "000111222",
+                  "offset": 85
+                }
+              ],
+              "location": "zadanie.featureDefinitions.insertAdress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 361780300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "klikam save",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickSave()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10991900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "powinno sie zapisac",
+            "match": {
+              "location": "zadanie.featureDefinitions.checkIfSaved()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-30T16:13:03.745Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1461714000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "zadanie.featureDefinitions.initDriver()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Usun adres",
+        "description": "",
+        "id": "zadanie1;usun-adres;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 140122400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "zadanie.featureDefinitions.disposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1267214600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "nawiguje do:",
+            "match": {
+              "location": "zadanie.featureDefinitions.navigateTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://prod-kurs.coderslab.pl/index.php?controller\u003dauthentication\u0026back\u003dmy-account"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236158700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "wpisuje login i haslo",
+            "match": {
+              "location": "zadanie.featureDefinitions.writeLoginAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 625099800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "klikam zaloguj",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280775500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "klikam zakladke adreses",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickAdressesBookmark()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 560323500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "usuwam adres alias1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alias1",
+                  "offset": 13
+                }
+              ],
+              "location": "zadanie.featureDefinitions.deleteAdress(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111179600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "powinien byc usuniety alias1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alias1",
+                  "offset": 22
+                }
+              ],
+              "location": "zadanie.featureDefinitions.isDeleted(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-30T16:13:08.441Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1938860600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "zadanie.featureDefinitions.initDriver()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Usun adres",
+        "description": "",
+        "id": "zadanie1;usun-adres;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 80976500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "zadanie.featureDefinitions.disposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1267213400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "nawiguje do:",
+            "match": {
+              "location": "zadanie.featureDefinitions.navigateTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://prod-kurs.coderslab.pl/index.php?controller\u003dauthentication\u0026back\u003dmy-account"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 412073900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "wpisuje login i haslo",
+            "match": {
+              "location": "zadanie.featureDefinitions.writeLoginAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595500300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "klikam zaloguj",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280461600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "klikam zakladke adreses",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickAdressesBookmark()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 512301000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "usuwam adres alias11",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alias11",
+                  "offset": 13
+                }
+              ],
+              "location": "zadanie.featureDefinitions.deleteAdress(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57473400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "powinien byc usuniety alias11",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alias11",
+                  "offset": 22
+                }
+              ],
+              "location": "zadanie.featureDefinitions.isDeleted(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-30T16:13:13.597Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1410260100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "zadanie.featureDefinitions.initDriver()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Usun adres",
+        "description": "",
+        "id": "zadanie1;usun-adres;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 107892400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "zadanie.featureDefinitions.disposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1229263100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "nawiguje do:",
+            "match": {
+              "location": "zadanie.featureDefinitions.navigateTo(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://prod-kurs.coderslab.pl/index.php?controller\u003dauthentication\u0026back\u003dmy-account"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 275943300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "wpisuje login i haslo",
+            "match": {
+              "location": "zadanie.featureDefinitions.writeLoginAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 545109100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "klikam zaloguj",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278802900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "klikam zakladke adreses",
+            "match": {
+              "location": "zadanie.featureDefinitions.clickAdressesBookmark()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63690400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "usuwam adres alias111",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alias111",
+                  "offset": 13
+                }
+              ],
+              "location": "zadanie.featureDefinitions.deleteAdress(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63620000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "powinien byc usuniety alias111",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alias111",
+                  "offset": 22
+                }
+              ],
+              "location": "zadanie.featureDefinitions.isDeleted(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "zadanie1",
+    "description": "",
+    "id": "zadanie1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/zadanie1.feature",
+    "tags": []
+  }
+]

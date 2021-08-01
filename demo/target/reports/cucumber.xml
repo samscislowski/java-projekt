@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="34.9">
+    <testcase classname="zadanie1" name="Logowanie na  stronie" time="6.927">
+        <system-out>
+            <![CDATA[Given nawiguje do:..........................................................passed
+And wpisuje login i haslo...................................................passed
+And klikam zaloguj..........................................................passed
+Then powinienem byc na stronie profilu......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="zadanie1" name="doadaj adres" time="8.346">
+        <system-out>
+            <![CDATA[Given nawiguje do:..........................................................passed
+And wpisuje login i haslo...................................................passed
+And klikam zaloguj..........................................................passed
+And klikam zakladke adreses.................................................passed
+And klikam dodaj adres......................................................passed
+When uzupelniam dane alias1 and address2 and city3 and postal4 and United Kingdom and 000111222.passed
+And klikam save.............................................................passed
+Then powinno sie zapisac....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="zadanie1" name="doadaj adres 2" time="5.374">
+        <system-out>
+            <![CDATA[Given nawiguje do:..........................................................passed
+And wpisuje login i haslo...................................................passed
+And klikam zaloguj..........................................................passed
+And klikam zakladke adreses.................................................passed
+And klikam dodaj adres......................................................passed
+When uzupelniam dane alias11 and address22 and city33 and postal44 and United Kingdom and 000111222.passed
+And klikam save.............................................................passed
+Then powinno sie zapisac....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="zadanie1" name="Usun adres" time="4.688">
+        <system-out>
+            <![CDATA[Given nawiguje do:..........................................................passed
+And wpisuje login i haslo...................................................passed
+And klikam zaloguj..........................................................passed
+And klikam zakladke adreses.................................................passed
+When usuwam adres alias1....................................................passed
+Then powinien byc usuniety alias1...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="zadanie1" name="Usun adres 2" time="5.149">
+        <system-out>
+            <![CDATA[Given nawiguje do:..........................................................passed
+And wpisuje login i haslo...................................................passed
+And klikam zaloguj..........................................................passed
+And klikam zakladke adreses.................................................passed
+When usuwam adres alias11...................................................passed
+Then powinien byc usuniety alias11..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="zadanie1" name="Usun adres 3" time="3.982">
+        <system-out>
+            <![CDATA[Given nawiguje do:..........................................................passed
+And wpisuje login i haslo...................................................passed
+And klikam zaloguj..........................................................passed
+And klikam zakladke adreses.................................................passed
+When usuwam adres alias111..................................................passed
+Then powinien byc usuniety alias111.........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
